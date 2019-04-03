@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!---title-->
+	<title>Cup of Cha | Location</title>
+	<style>
+	@import url("CSS/LocationCss.css");
+	</style>
+</head>
+<body style = "margin:0">
+	<header class="sticky">
+		<div>
+
+			<a href="#" class="burger-icon">&#9776;</a>
+			<nav id="navi">
+			<div id="logo"><a href="index.html"><img src="images/logo/logo.png" alt="logo" width="120" height="60"></a></div>
+			
+					<ul>
+				<li><a href="index.html">Home</a></li>
+				<li id="menuaboutus"><a href="aboutus.html">About Us</a></li>
+				<li id="menucolor"><a href="menu.html">Menu</a>
+					<ul>
+						<li><a href="food.html">Main Food</a></li>
+						<li><a href="Dessert.html">Dessert</a></li>
+						<li><a href="Bakery.html">Pastry & Sandwich</a></li>
+						<li><a href="beverage.html">Beverages</a></li>
+					</ul>
+				</li>			
+				<li><a href="promotion.html">Promotion</a></li>
+				<li><a href="location.html">Where We Are</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="FAQs.html">FAQ </a></li>
+			</ul>
+			</nav>
+
+		<!--if bg for upper area-->
+		</div>
+
+	</header>
+
+
+
+<script>
+$(document).ready(function(){
+	$('.burger-icon').click(function(){
+		$('#navi').toggle('slow');
+	});
+});
+</script>
+
+
+
+	<main id="backtop">
+	<div class="location-background">
+	
+	<h2 class="where">WHERE WE ARE</h2>
+	<h3 class="here-is">Here are our awesome outlets and some directions to allow you to find us. Don't get lost!</h3>
+	<!--content -->
+	<div class = "Location">
+		<div class = "AddressColOne">
+			<img src = "images/carmenimages/cupofcha2.jpg" alt = "StorePic" width="600" height="400">
+
+			<p class = "Address">
+				Location Petaling Jaya Outlet (HQ):<br>
+				<a href = "https://goo.gl/maps/hNrgTyKXwLs">
+				13, Jalan SS 26/4, <br>
+				Taman Mayang Jaya,<br>
+				47301 Petaling Jaya, Selangor. </a> <br>
+				Contact: 03-7765 2323 <br> <br>
+			</p>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9184243805744!2d101.60245481457605!3d3.116282197730812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4ea89d61a2bb%3A0x7595387f0cba5faa!2s13%2C+Jalan+SS+26%2F4%2C+Taman+Mayang+Jaya%2C+47301+Petaling+Jaya%2C+Selangor!5e0!3m2!1sen!2smy!4v1554177781500!5m2!1sen!2smy" class = "GoogleMap"></iframe>
+		</div>
+
+		<div class = "AddressColTwo">
+			<img src = "images/carmenimages/cupofcha.jpg" alt = "StorePic" width="600" height="400">
+										
+			<p class = "Address">
+				Location Kepong Outlet:<br>
+				<a href = "https://goo.gl/maps/H1qnFwjpXgH2">
+				47, Jalan Rimbunan Raya 1, <br>
+				Laman Rimbunan,<br>
+				52100 Kuala Lumpur.</a> <br>
+				Contact: 03-7756 6232<br><br>
+			</p>
+				
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.555186618856!2d101.64821581457633!3d3.2108035976622618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4637fc7a8891%3A0x6c8c263efb7ec6ef!2s47%2C+Jalan+Rimbunan+Raya+1%2C+Laman+Rimbunan%2C+52100+Kuala+Lumpur%2C+Wilayah+Persekutuan+Kuala+Lumpur!5e0!3m2!1sen!2smy!4v1554177857882!5m2!1sen!2smy" class = "GoogleMap"></iframe>
+			<br>
+		</div>			
+	</div>
+	<div>
+			<a class="go-top" href="#backtop">&#8657;</a>
+		</div> 
+	
+	</div>		
+			
+<script>
+		$(document).ready(function(){
+		
+				$('.where').hide(1).fadeIn(900);
+				$('.here-is').hide(1).fadeIn(1400);
+				$('.AddressColOne').hide(1).slideDown(1500);
+				$('.AddressColTwo').hide(1).slideDown(1500);
+		});
+		</script>	
+		
+		
+	
+	</main>
+
+<!--bottom&footer-->
+<footer>
+	<div>
+		<form method="post" action="#" onsubmit="newsletter();">
+			<div class="social-bg">
+				<ul class="socialmedia">
+					<li><a href="https://www.facebook.com/Cup-Of-Cha-993678347498342/" target="_blank"><img src="images/logo/Facebook.png" alt="facebook"></a></li>
+					<li><a href="https://twitter.com/CupOfCha1" target="_blank"><img src="images/logo/Twitter.png" alt="twitter"></a></li>
+					<li><a href="https://www.instagram.com/cupofcha_/" target="_blank"><img src="images/logo/Instagram.png" alt="instagram"></a></li>
+					<li id="morefromus">Want to hear more from us?</li>
+					<li>
+					<input type="email" name="email" id="email" placeholder="Enter your email" size="30" class="email">
+					<input id="sub" type="submit" value="Subscribe!"></li>
+				</ul>
+			</div>
+	
+				<script>
+						function newsletter() {
+						if(document.forms[0].email.value==""){
+							alert("Field cannot be empty");
+							return false;
+						}
+
+						alert("Thank you for subscribing to us");
+						return true;
+						}			
+				</script>	
+		</form>	
+	</div>		
+				
+				
+		<table class="footer">
+				
+			<tr>
+				<th class="footer-th"><a href ="home.html">About Us</a></th>
+				<th class="footer-th"><a href="ContactUs.html">Contact Us</a></th>
+				<th class="footer-th">Operating Hours</th>
+				
+			</tr>
+
+			<tr>	
+				<td class="footer-td"><a href="Menu">Menu</a></td>
+				<td class="footer-td">&phone; 03-7765 2323</td>
+				<td class="footer-td">Monday - Friday: 7AM - 10PM</td>
+			</tr>	
+
+			<tr>
+				<td class="footer-td"><a href="#" >Where We Are</a></td>
+				<td class="footer-td">&phone; 03-7756 6232</td>
+				<td class="footer-td">Weekend: 7AM - 11PM</td>
+					
+			</tr>		
+			<tr>
+				<td class="footer-td"><a href="promotion.html">Promotion</a></td>
+				<td colspan="2" class="footer-td">&#9993; cupOfCha@gmail.com</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="footer-td"><a href="FAQs.html">FAQ</a></td>
+			</tr>
+				
+		</table>
+		<div id="logo2"><a href="index.html"><img src="logo/logo.png" alt="logo" width="80" height="40"></a></div>
+	
+	<div class="copyright">
+		All images are copyright to their owners. This is just a hypothetical site &copy; 2019 Cup Of Cha
+	</div>
+</footer>
+</body>   
+</html>  
