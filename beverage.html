@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>Cup of Cha | Beverage</title>
+	<link href="CSS/stylesheet_CaiJuan.css" rel="stylesheet">
+</head>
+<body style ="margin:0">
+<div>		
+<header class="sticky">
+			<a href="#" class="burger-icon">&#9776;</a>
+			<nav id="navi">
+				<div id="logo"><a  href="index.html"><img src="images/logo/logo.png" alt="logo" width="120" height="60"></a></div>
+					<ul>
+				<li><a href="index.html">Home</a></li>
+				<li id="menuaboutus"><a href="aboutus.html">About Us</a></li>
+				<li id="menucolor"><a href="menu.html">Menu</a>
+					<ul>
+						<li><a href="food.html">Main Food</a></li>
+						<li><a href="Dessert.html">Dessert</a></li>
+						<li><a href="Bakery.html">Pastry & Sandwich</a></li>
+						<li><a href="beverage.html">Beverages</a></li>
+					</ul>
+				</li>			
+				<li><a href="promotion.html">Promotion</a></li>
+				<li><a href="location.html">Where We Are</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				<li><a href="FAQs.html">FAQ </a></li>
+			</ul>
+			</nav>
+</header>
+<div id="backtop" class="headerBeverage">Beverages</div>
+<script>
+		$(document).ready(function(){
+			$('.burger-icon').click(function(){
+				$('#navi').toggle('slow');
+			});
+		});
+</script>
+<script>
+		$(document).ready(function(){
+		
+				$('.headerBeverage').hide(0.01).fadeIn(1500);
+		});
+</script>	
+<main>
+<div id = 'go-menu'>
+	<a class="go-menu" href="menu.html">&#60; MENU</a>
+</div>
+	<h2 class="menuTitle">Tea</h2>
+	<div class="img-container">
+		<div class="container">
+			<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/teaA.png" alt="teaA"  class="box" >
+			<div class="overlay">RM 11.90</div>
+			
+			</div>
+			<div class = 'productName'>Rose Tea</div>
+			<div class = 'foodDescription'>Roses are perfect for every occasion, including afternoon tea </div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/teaB.png" alt="teaB"  class="box">
+			<div class="overlay">RM 13.00</div>
+		</div>
+			<div class = 'productName'>Peppermint Tea</div>
+			<div class = 'foodDescription'>Mint tea made by infusing pepperiment leaves in hot water</div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/teaC.png" alt="teaC"  class="box">
+			<div class="overlay">RM 13.90</div>
+		</div>
+			<div class = 'productName'>Pomegranate Blueberry Tea</div>
+			<div class = 'foodDescription'>A blend of blueberries and pomegranate-flavored green tea, oolong tea and black tea</div>
+		</div>
+			<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/teaD.png" alt="teaD"  class="box" >
+			<div class="overlay">RM 11.90</div>
+		</div>
+			<div class = 'productName'>Honey Lemon Cinnamon Tea</div>
+			<div class = 'foodDescription'>Lemon tea is served with cinnamon </div>
+		</div>
+	</div>
+
+	<h2 class="menuTitle">Coffee</h2>
+	<h3 class="subTitle">Hot</h3>
+	<div class="img-container">
+	<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/hotDrip.png" alt="hotDripCoffee"  class="box" >
+				<div class="overlay">RM 15.00</div>
+		</div>
+			<div class = 'productName'>Cup of Cha Drip Coffee</div>
+			<div class = 'foodDescription'>Instantly extract fresh and traditional, dark coffee </div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/hotExpresso.png" alt="hotExpresso"  class="box" >
+			<div class="overlay">RM 12.90</div>
+		</div>
+			<div class = 'productName'>Expresso</div>
+			<div class = 'foodDescription'>Perfectly balanced with a golden cream to produce strong aroma with velvety body and taste the bittersweet in the end</div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/hotAmericano.png" alt="hotAmericano"  class="box">
+			<div class="overlay">RM 12.90</div>
+			</div>
+			<div class = 'productName'>Americano</div>
+			<div class = 'foodDescription'>Freshly pulled shots of espresso combined with hot water that reveals a lovely flavor</div>
+		</div>	
+	<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/latteA.png" alt="latte"  class="box" >
+			<div class="overlay">RM 13.90</div>
+		</div>
+			<div class = 'productName'>Cafe Latte</div>
+			<div class = 'foodDescription'>Freshly pulled shots of espresso with steamed milk that offers a milky-sweet flavor</div>
+		</div>	
+	<div class="container">
+		<div class="overContainer">
+		<img src="images/CaiJuanImages/beverage/hotA.png" alt="hotCappucino"  class="box" >
+		<div class="overlay">RM 15.90</div>
+		</div>
+			<div class = 'productName'>Cappucino</div>
+			<div class = 'foodDescription'>A freshly pulled shot of espresso layered with steamed milk and thick rich foam in perfect harmony to offer a pillowy texture and complex aroma</div>
+		</div>	
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/vanilla.png" alt="hotVanilla"  class="box" >
+			<div class="overlay">RM 15.90</div>
+		</div>
+			<div class = 'productName'>Vanilla Latte</div>
+			<div class = 'foodDescription'>Vanilla powder, steamed milk and topped with thick foam to offer a classic indulgent blend</div>
+		</div>	
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/hotCaramel.png" alt="hotCaramel"  class="box" >
+			<div class="overlay">RM 15.90</div>
+		</div>
+			<div class = 'productName'>Caramel Latte</div>	
+			<div class = 'foodDescription'>Vanilla powder, caramel sauce, steamed milk, topped with thick foam, and a drizzle of caramel sauce</div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/hotMacha.png" alt="hotMatcha"  class="box" >
+			<div class="overlay">RM 15.90</div>
+		</div>
+			<div class = 'productName'>Matcha Latte</div>
+			<div class = 'foodDescription'>Matcha green tea powder, creamy milk with little sugar for a flavour balance </div>
+		</div>
+	</div>
+	<br>
+	<h3>Cold</h3>
+	<div class="img-container">
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iced.png" alt="ColdBrew"  class="box" >
+			<div class="overlay">RM 14.90</div>
+		</div>
+			<div class = 'productName'>Cold Brew Coffee</div>
+			<div class = 'foodDescription'>Cold brew is handcrafted in small batches daily, slow-steeped in cool water without heat for 20 hours</div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceA.png" alt="ColdBrew"  class="box" >
+			<div class="overlay">RM 15.90</div>
+		</div>
+			<div class = 'productName'>Cold Brew Coffee with Milk</div>
+			<div class = 'foodDescription'>Cold brew is handcrafted in small batches daily, slow-steeped in cool water without heat and finished with a splash of milk</div>
+		</div>
+		
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceH.png" alt="iceLatte"  class="box" >
+			<div class="overlay">RM 11.90</div>
+		</div>
+			<div class = 'productName'>Iced Chai Latte</div>
+			<div class = 'foodDescription'>Black tea infused with cinnamon, clove, and other warming spices are combined with milk and ice for the perfect balance of sweet and spicy</div>
+		</div>
+		
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceF.png" alt="IcedChaiLatte"  class="box" >
+			<div class="overlay">RM 12.90</div>
+		</div>
+			<div class = 'productName'>Iced Latte</div>
+			<div class = 'foodDescription'> Classic vanilla syrup mixed perfectly with rich expresso & creamy milk</div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceM.png" alt="MilkyWay"  class="box" >
+			<div class="overlay">RM 14.50</div>
+		</div>
+			<div class = 'productName'>Milky Way</div>
+			<div class = 'foodDescription'>A blend of soy milk with ur html </div>
+		</div>
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceB.png" alt="NotSoHotChocolate"  class="box" >
+			<div class="overlay">RM 10.00</div>
+		</div>
+			<div class = 'productName'>Not So Hot Chocolate </div>
+			<div class= 'foodDescription'>Rich and famous hot chocolate</div>
+		</div>
+		
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/iceC.png" alt="breakfastb"  class="box" >
+			<div class="overlay">RM 11.00</div>
+		</div>
+			<div class = 'productName'>Snowy Mocha</div>
+			<div class = 'foodDescription'>White chocolate mocha, Ghiradelli white chocolate, expresso and steamed milk </div>
+		</div>
+		
+		<div class="container">
+		<div class="overContainer">
+			<img src="images/CaiJuanImages/beverage/frappe.png" alt="breakfastb"  class="box" >
+			<div class="overlay">RM 12.90</div>
+		</div>
+			<div class = 'productName'>Caramel Iced Blended </div>
+			<div class = 'foodDescription'> Vanilla powder, milk, caramel sauce, and blended with ice then topped with whipped cream and a drizzle of caramel sauce</div>
+		</div>
+	</div>
+
+
+	<div>
+		<a class="go-top" href="#backtop">&#8657;</a>
+	</div>
+</main>
+</div>
+<!--bottom&footer-->
+<footer>
+	<div>
+		<form method="post" action="#" onsubmit="newsletter();">
+			<div class="social-bg">
+				<ul class="socialmedia">
+					<li><a href="https://www.facebook.com/Cup-Of-Cha-993678347498342/" target="_blank"><img src="images/logo/Facebook.png" alt="facebook"></a></li>
+					<li><a href="https://twitter.com/CupOfCha1" target="_blank"><img src="images/logo/Twitter.png" alt="twitter"></a></li>
+					<li><a href="https://www.instagram.com/cupofcha_/" target="_blank"><img src="images/logo/Instagram.png" alt="instagram"></a></li>
+					<li id="morefromus">Want to hear more from us?</li>
+					<li>
+					<input type="email" name="email" id="email" placeholder="Enter your email" size="30" class="email">
+					<input id="sub" type="submit" value="Subscribe!"></li>
+				</ul>
+			</div>
+	
+				<script>
+						function newsletter() {
+						if(document.forms[0].email.value==""){
+							alert("Field cannot be empty");
+							return false;
+						}
+
+						alert("Thank you for subscribing to us");
+						return true;
+						}			
+				</script>	
+		</form>	
+	</div>		
+				
+				
+		<table class="footer">
+
+			<tr>
+				<th class="footer-th"><a href ="aboutus.html">About Us</a></th>
+				<th class="footer-th"><a href="contact.html">Contact Us</a></th>
+				<th class="footer-th">Operating Hours</th>
+
+			</tr>
+
+			<tr>
+				<td class="footer-td"><a href="menu.html">Menu</a></td>
+				<td class="footer-td">&phone; 03-7765 2323</td>
+				<td class="footer-td">Monday - Friday: 7AM - 10PM</td>
+			</tr>
+
+			<tr>
+				<td class="footer-td"><a href="location.html" >Where We Are</a></td>
+				<td class="footer-td">&phone; 03-7756 6232</td>
+				<td class="footer-td">Weekend: 7AM - 11PM</td>
+
+			</tr>
+			<tr>
+				<td class="footer-td"><a href="promotion.html">Promotion</a></td>
+				<td colspan="2" class="footer-td">&#9993; cupOfCha@gmail.com</td>
+			</tr>
+			<tr>
+				<td colspan="3" class="footer-td"><a href="FAQs.html">FAQ</a></td>
+			</tr>
+				
+		</table>
+		<div id="logo2"><a href="index.html"><img src="images/logo//logo.png" alt="logo" width="80" height="40"></a></div>
+	
+	<div class="copyright">
+		All images are copyright to their owners. This is just a hypothetical site &copy; 2019 Cup Of Cha
+	</div>
+</footer>
+</body>   
+</html>  
