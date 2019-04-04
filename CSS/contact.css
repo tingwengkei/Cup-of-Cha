@@ -110,8 +110,7 @@ font-family:'Open Sans', sans-serif;
 	color:white;
 	padding:3%;
 	font-family:'Open Sans', Calibri, sans-serif;
-	/*(font-size:100%;
-	border-radius:10px;*/
+	border-radius:10px;
 	width:50%;
 }
 
@@ -121,11 +120,6 @@ font-family:'Open Sans', sans-serif;
 }
 /*---try---*/
 
-input[type=submit].submit-contact{
-	-webkit-apperance:none;
-	border-radius:10px;
-	width:50%;
-}
 
 
 /*navigation*/	
@@ -645,7 +639,7 @@ padding:15px;
 }
 
 }
-input[type=submit].submit-contact{
+.submit-contact{
 	width:10%;
 }
 
