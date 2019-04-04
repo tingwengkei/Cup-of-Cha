@@ -572,7 +572,7 @@ margin-left:87%;
 }
 
 .menuTitle{
-	font-size:20%;
+	font-size:20px;
 }
 
 
@@ -598,9 +598,15 @@ display:none;
 }
 
 .headerBeverage{
-	font-size:350%;
+	font-size:90%;
 }
 
+.headerMenu{
+	font-size:90%;
+}
+.headerFood{
+	font-size:90%;
+}
 
 /*footer */
 .footer-th,.footer-th a{
