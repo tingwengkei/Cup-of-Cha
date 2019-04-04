@@ -8,7 +8,7 @@ a {
 .contact-us-form{
 	
 	padding:3%;
-	font-family:'Open Sans';
+	font-family:'Open Sans', Calibri, sans-serif;
 	display:inline-block;
 	border:1px solid #ccc;
 	margin-left: auto;
@@ -22,7 +22,7 @@ a {
 
 .ContactBoxONE {float: left;
 	padding:3%;
-	font-family:'Open Sans';
+	font-family:'Open Sans', Calibri, sans-serif;
 	display:inline-block;
 	border:1px solid #ccc;
 	margin: 75px 20px 10px 150px ;
@@ -31,7 +31,7 @@ a {
 	
 }
 
-.LocateUs {	font-family:'Open Sans';
+.LocateUs {	font-family:'Open Sans', Calibri, sans-serif;
 			font-size:18px;
 			text-align: center;
 			font-weight: bold;
@@ -39,11 +39,11 @@ a {
 			
 }
 
-.LocateTitle {font-family:'Open Sans';
+.LocateTitle {font-family:'Open Sans', Calibri, sans-serif;
 			  text-align: center;
 }
 
-.ContactTitle {font-family:'Open Sans';
+.ContactTitle {font-family:'Open Sans', Calibri, sans-serif;
 			  text-align: center;
 
 }
@@ -118,7 +118,7 @@ font-family:'Open Sans', sans-serif;
 	color:black;
 }
 /*---try---*/
-input[type="submit"],
+
 .submit-contact{
 	-webkit-apperance:none;
 	border-radius:10px;
