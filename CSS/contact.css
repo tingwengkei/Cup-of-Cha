@@ -119,7 +119,9 @@ font-family:'Open Sans', sans-serif;
 }
 /*---try---*/
 
-
+input.submit-contract{
+	width:30%;
+}
 
 /*navigation*/	
 body {
@@ -638,9 +640,8 @@ padding:15px;
 }
 
 }
-.submit-contact{
+input.submit-contract{
 	width:10%;
 }
-
 
 
