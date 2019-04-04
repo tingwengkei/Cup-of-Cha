@@ -124,7 +124,7 @@ font-family:'Open Sans', sans-serif;
 input[type=submit].submit-contact{
 	-webkit-apperance:none;
 	border-radius:10px;
-	width:30%;
+	width:50%;
 }
 
 
