@@ -7,7 +7,7 @@ a {
 /*CONTACT US*/
 .contact-us-form{
 	
-	padding:4%;
+	padding:3%;
 	font-family:'Open Sans', Calibri, sans-serif;
 	display:inline-block;
 	border:1px solid #ccc;
@@ -65,7 +65,7 @@ a {
   border-radius: 4px;
   box-sizing: border-box;
   display: inline-block;
-  font-size:70%;
+  font-size:80%;
 }
 
 
@@ -73,7 +73,7 @@ textarea{
 display: inline-block;
  border: 1px solid #ccc;
  border-radius: 4px;
- font-size:70%;	
+ font-size:80%;	
  width:100%;
  padding-left:10px;
 font-family:'Open Sans', sans-serif;
@@ -124,7 +124,7 @@ font-family:'Open Sans', sans-serif;
 input[type=submit].submit-contact{
 	-webkit-apperance:none;
 	border-radius:10px;
-	width:70%;
+	width:30%;
 }
 
 
@@ -645,8 +645,7 @@ padding:15px;
 }
 
 }
-.submit-contact{
-
+input[type=submit].submit-contact{
 	width:10%;
 }
 
