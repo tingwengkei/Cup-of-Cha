@@ -598,17 +598,9 @@ display:none;
 }
 
 .headerBeverage{
-  width:80%;
 	font-size:350%;
 }
 
-.headerMenu{
-	width:80%;
-}
-
-.headerFood{
-  width:80%;
-}
 
 /*footer */
 .footer-th,.footer-th a{
