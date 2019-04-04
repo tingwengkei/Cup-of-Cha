@@ -516,12 +516,13 @@ footer{
 }
 
 .food > div {
-  flex: 1;
+  	flex: 1;
+	margin: 5px 5px 10px 5px;
 }
 
 .foodimage {
 	position: relative;
-    width: 50%;
+    	width: 50%;
 	max-width: 300px;
 }
 
