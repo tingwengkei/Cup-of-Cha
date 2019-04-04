@@ -109,7 +109,7 @@ display: inline-block;
 	font-family:'Open Sans', Calibri, sans-serif;
 	/*(font-size:100%;*/
 	border-radius:10px;
-	width:100%;
+	width:50%;
 }
 
 .submit-contact:hover{
