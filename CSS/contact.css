@@ -7,7 +7,7 @@ a {
 /*CONTACT US*/
 .contact-us-form{
 	
-	padding:3%;
+	padding:4%;
 	font-family:'Open Sans', Calibri, sans-serif;
 	display:inline-block;
 	border:1px solid #ccc;
@@ -121,7 +121,7 @@ font-family:'Open Sans', sans-serif;
 }
 /*---try---*/
 
-.submit-contact{
+input[type=submit].submit-contact{
 	-webkit-apperance:none;
 	border-radius:10px;
 	width:70%;
