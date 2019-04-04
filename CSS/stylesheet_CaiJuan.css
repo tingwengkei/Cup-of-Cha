@@ -580,10 +580,10 @@ margin-left:87%;
 .box {
 width:90%;
 box-sizing:border-box;
-height:200px;
+height:150px;
 }
 .img-container>div{
-  margin: 0px;
+  margin:0px 0px 3px 0px;
 }
 .overlay{
 width:90%;
@@ -599,14 +599,14 @@ display:none;
 }
 
 .headerBeverage{
-	font-size:250%;
+	font-size:300%;
 }
 
 .headerMenu{
-	font-size:250%;
+	font-size:300%;
 }
 .headerFood{
-	font-size:250%;
+	font-size:300%;
 }
 
 /*footer */
