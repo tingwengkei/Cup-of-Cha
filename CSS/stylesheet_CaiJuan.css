@@ -3,9 +3,16 @@
 body {
     max-width: 100%;
     overflow-x: hidden;
-	margin:0;
-	font-family: 'Open Sans', sans-serif;
+	  margin:0;
+	  font-family: 'Open Sans', sans-serif;
 }
+.burger-icon{
+	margin-left:90%;
+	padding-right:5%;
+	font-size:190%;
+	display:none;
+}
+
 a{
 	text-decoration:none;
 }
@@ -35,8 +42,8 @@ a:hover{
 	display:none;
 }
 
-nav {  background-color: #ffffff;
-	font-weight:bold;
+nav { background-color: #ffffff;
+	   font-weight:bold;
 	   font-family: 'Open Sans', sans-serif;
 	   text-align: center;
 	   position: relative;
@@ -45,7 +52,6 @@ nav {  background-color: #ffffff;
 	   -webkit-box-shadow: 0 8px 6px -6px black;
 	   -moz-box-shadow: 0 8px 6px -6px black;
 	    box-shadow: 0 8px 6px -6px black;
-
 }
 
 .sticky{
@@ -53,6 +59,7 @@ nav {  background-color: #ffffff;
 	position:sticky	;
 	z-index:10;
 }
+
 nav ul {
 	float: right;
 	margin:0;
@@ -178,15 +185,7 @@ nav a:hover {  color: #000000;}
 	color:red;
 }
 
-/*main
-main {
-           color: #000000;
-		   padding: 10px 20px;
-		   min-height: 500px;
-}
 
-
-/*text-transform:uppercase;*/
 main { background-color: #FFFFFF;
            color: #000000;
 		   padding: 10px;
@@ -223,11 +222,11 @@ main { background-color: #FFFFFF;
 	flex:1;
 }
 
- /*.imgContainer::after {
+ .imgContainer::after {
   content: "";
   clear: both;
   display: table;
-  }*/
+  }
 
 .imgColumn {
    width: 100%;
@@ -282,7 +281,6 @@ main { background-color: #FFFFFF;
 
 /*food*/
 
-
 .box{
 width:100%;
 height:300px;
@@ -293,7 +291,6 @@ display:block;
 box-sizing:border-box;
 margin:10px 10px 0px 10px;
 }
-
 
 
 .overlay {
@@ -317,6 +314,7 @@ margin:10px 10px 0px 10px;
 .overContainer:hover .overlay {
   opacity: 1;
 }
+
 /*---beverage-----*/
 .img-container{
 width:100%;
@@ -351,6 +349,7 @@ flex-flow:wrap;
 	box-shadow: 2px -2px 5px grey;
 	width:100%
 }
+
 .foodDescription{
 	padding:10px;
 	text-align:center;
@@ -360,32 +359,19 @@ flex-flow:wrap;
 	box-shadow: 2px -2px 5px grey;
 	width:100%;
 	height:25%;
-
-
 }
 
 .overContainer{
 	 position: relative;
-  width: 100%;
-  max-width: 300px;
+   width: 100%;
+   max-width: 300px;
 }
 
 h3{
-margin:10px 10px;
+  margin:10px 10px;
  font-family: 'Open Sans', sans-serif;
-font-size:25px;
-
+ font-size:25px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /*Go to top button */
 .go-top{
@@ -574,6 +560,8 @@ margin-left:87%;
 	display:block;
 }
 
+
+
 /*menu page*/
 .imgContainer{
 	width:90%
@@ -610,7 +598,16 @@ display:none;
 }
 
 .headerBeverage{
+  width:80%;
 	font-size:350%;
+}
+
+.headerMenu{
+	width:80%;
+}
+
+.headerFood{
+  width:80%;
 }
 
 /*footer */
