@@ -614,10 +614,10 @@ footer{
 #faq-eng{
 	margin-left:auto;
 	margin-right:auto;
-	padding:3%;
-	width:90%;
+	padding:2%;
+	width:75%;
 	font-family:'Open Sans', Calibri, Arial, san-serif;
-	font-size:150%;
+	font-size:140%;
 	background:rgba(255,255,255,0.8);
 	display:block;
 }
@@ -625,10 +625,10 @@ footer{
 #faq-bm{
 	margin-left:auto;
 	margin-right:auto;
-	padding:3%;
-	width:90%;
+	padding:2%;
+	width:75%;
 	font-family:'Open Sans', Calibri, Arial, san-serif;
-	font-size:150%;
+	font-size:140%;
 	background:rgba(255,255,255,0.8);
 	display:none;
 }
@@ -642,17 +642,33 @@ footer{
 
 }
 
+summary:hover{
+	color:white;
+	transition: color 0.4s ease-out;
+}
+
+.answer{
+	color:maroon;
+}
+
+.answer:hover{
+	
+	color:white;
+}
+
+
 .button-lang{
 	font-family:'Open Sans', Calibri, Arial, san-serif;
 	font-size:20px;
 	color:white;
 	background-color:maroon;
 	border-radius:20px;
-	margin-right:2%;
+	margin-left:3%;
 	padding:1%;
 }
 
 .button-lang:hover{
 	color:maroon;
 	background-color:white;
+	transition: background-color 0.8s ease-out;
 }
