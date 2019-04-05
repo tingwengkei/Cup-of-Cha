@@ -150,6 +150,10 @@ nav a:hover {  color: #000000;}
 	background-size: cover;
 	position:relative;
 	line-height:400px;
+	line-height:400px;
+	  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	    box-shadow: 0 10px 6px -6px black;
 	}
 .headerMenu{
 	text-align:center;
@@ -163,6 +167,10 @@ nav a:hover {  color: #000000;}
 	background-size: cover;
 	position:relative;
 	line-height:400px;
+	line-height:400px;
+	  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	    box-shadow: 0 10px 6px -6px black;
 }
 .headerBeverage{
 	text-align:center;
@@ -176,6 +184,10 @@ nav a:hover {  color: #000000;}
 	background-size: cover;
 	position:relative;
 	line-height:400px;
+	line-height:400px;
+	  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	    box-shadow: 0 10px 6px -6px black;
 }
 
 .go-menu {
