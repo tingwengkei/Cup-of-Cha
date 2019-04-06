@@ -453,10 +453,12 @@ footer{
 	font-size:80%;
 }
 
-
+summary{
+	font-size: 80%;
+	}
 
 .freq-q{
-	font-size:70%;
+	font-size:60%;
 }
 
 .faq-know{
@@ -603,7 +605,7 @@ footer{
 }
 
 .faq-know{
-	font-size:50%;
+	font-size:40%;
 	text-align:center;
 	color:white;
 	font-family:'Open Sans', Calibri, sans-serif;
