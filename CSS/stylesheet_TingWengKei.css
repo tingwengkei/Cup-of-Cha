@@ -645,7 +645,7 @@ summary{
 }
 
 summary:hover{
-	color:white;
+	/*color:white;*/
 	transition: color 0.4s ease-out;
 }
 
